@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+container {
+  padding: 25px;
+  border: 15px solid black;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+}
+
+.sidebar {
+  background-color: #4646b9;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: auto;
+  min-width: 220px;
+}
+
+.sb-profilepic {
+  margin: 15px auto;
+  width: 150px;
+  height: 150px;
+}
+
+.sb-profilepic .pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.contactinfo {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contactinfo h3 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contactinfo li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding-top: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+a {
+  color: white;
+}
+
+label {
+  font-size: 1rem;
+  color: white;
+  padding-left: 45px;
+}
+
+progress id {
+  padding-left: 500%;
+}
+
+h3 {
+  color: white;
+}
+
+.skills {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.skills h3 {
+  text-align: center;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.skills li {
+  text-align: center;
+  color: white;
+}
+
+.software h3 {
+  text-align: center;
+}
+
+.software li {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding-left: 335px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+
+  text-align: justify;
+  padding-right: 15px;
+}
+
+.rightpart {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 70%;
+  min-width: 650px;
+}
+
+.paragraph {
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+h2 {
+  padding-left: 25px;
+  background-color: #4646b9;
+  border: 1px solid black;
+  color: aliceblue;
+}
+
+.container-education li {
+  padding-left: 15px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+p {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.software .sblist {
+  padding-bottom: 15px;
+}
+
+.skills .ssb {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ssb div {
+  margin-top: 10px;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+.skills .ssb p {
+  color: white;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
